@@ -137,11 +137,11 @@ while lives>0 and "_" in word_blank:
         print(hangManDiagram[lives])
 
 if "_" not in word_blank:
-    print("\n🎉 Congratulations! You guessed the word!")
+    print("\n Congratulations! You guessed the word!")
     print(f"The word was: {word_list[random_word]}")
 
 else:
-    print(f"\n💀 Game over! The word was: {word_list[random_word]}")
+    print(f"\n Game over! The word was: {word_list[random_word]}")
 
 
 
